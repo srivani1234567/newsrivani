@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52821" started-at="2021-04-18T11:17:58Z" finished-at="2021-04-18T11:18:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52821" started-at="2021-04-18T11:17:58Z" finished-at="2021-04-18T11:18:51Z">
+      <class name="TestScripts.Createproductbyproductlink">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:TestScripts.Createproductbyproductlink@604ed9f0]" name="launchbrowser" is-config="true" duration-ms="16306" started-at="2021-04-18T11:17:58Z" finished-at="2021-04-18T11:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestScripts.Createproductbyproductlink@604ed9f0]" name="Login" is-config="true" duration-ms="6311" started-at="2021-04-18T11:18:15Z" finished-at="2021-04-18T11:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="createNewprodbyprodlink()[pri:0, instance:TestScripts.Createproductbyproductlink@604ed9f0]" name="createNewprodbyprodlink" duration-ms="24960" started-at="2021-04-18T11:18:21Z" finished-at="2021-04-18T11:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewprodbyprodlink -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:TestScripts.Createproductbyproductlink@604ed9f0]" name="Logout" is-config="true" duration-ms="2893" started-at="2021-04-18T11:18:46Z" finished-at="2021-04-18T11:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:TestScripts.Createproductbyproductlink@604ed9f0]" name="closebrowser" is-config="true" duration-ms="2325" started-at="2021-04-18T11:18:49Z" finished-at="2021-04-18T11:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestScripts.Createproductbyproductlink -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

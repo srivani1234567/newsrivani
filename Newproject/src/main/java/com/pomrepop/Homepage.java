@@ -22,6 +22,63 @@ public class Homepage {
     @FindBy(xpath="//a[text()='Sign Out']")
     private WebElement signoutlink;
     
+    @FindBy(xpath="//select[@id='qccombo']")
+    private WebElement quickcreatedd;
+    
+    @FindBy(xpath="//input[@name='productname']")
+    private WebElement childcreateproducttb;
+    
+    @FindBy(xpath="//input[@value='T']")
+    private WebElement groupradiobtn;
+    
+    @FindBy(xpath="//span[@id='assign_team']/select[@name='assigned_group_id']")
+    private WebElement Teamsellingdd;
+    
+    @FindBy(xpath="//input[@value='U']")
+    private WebElement userradiobtn;
+    
+    
+    public WebElement getUserradiobtn() {
+		return userradiobtn;
+	}
+
+
+	@FindBy(xpath="//input[@type='submit']")
+    private WebElement childsavebtn;
+    
+    @FindBy(xpath="//td[@align='center']/a[text()='Products']")
+    private WebElement productlink;
+    
+	public WebElement getProductlink() {
+		return productlink;
+	}
+
+
+	public WebElement getChildsavebtn() {
+		return childsavebtn;
+	}
+
+
+	public WebElement getTeamsellingdd() {
+		return Teamsellingdd;
+	}
+
+
+	public WebElement getGroupradiobtn() {
+		return groupradiobtn;
+	}
+
+
+	public WebElement getChildcreateproducttb() {
+		return childcreateproducttb;
+	}
+
+
+	public WebElement getQuickcreatedd() {
+		return quickcreatedd;
+	}
+
+
 	public WebElement getSignoutimg() {
 		return signoutimg;
 	}
